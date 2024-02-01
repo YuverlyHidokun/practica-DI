@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tutor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FFE5E5;
+}
+
+.imagen-container {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen-container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.informacion-container {
+    flex: 1;
+    padding: 20px;
+}
+
+p {
+    color: #666;
+}
+.container{
+    background: #FFE5E5;
+}
+ 
+figure button {
+    text-align: center;
+}
+
+h1{
+    color: #AC87C5;
+}
+h1:hover{
+    color: #756AB6;
+
+}
+header{
+    background-color: #756AB6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: #756AB6;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

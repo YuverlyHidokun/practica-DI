@@ -1,0 +1,62 @@
+.container{
+    background: #FFE5E5;
+}
+ 
+figure button {
+    text-align: center;
+}
+
+h1{
+    color: #AC87C5;
+}
+h1:hover{
+    color: #756AB6;
+
+}
+.ver-mas-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #AC87C5; 
+    color: #fff; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+.ver-mas-btn:hover {
+    background-color: #756AB6; 
+}
+.col1{
+    background: #E0AED0;
+}
+footer {
+    background-color: #756AB6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    background-color: #756AB6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.Red-Social{
+    width: 30px;
+    height: 30px;
+
+}
+.ima{
+    transition: 300px;
+    position: relative;
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    max-width: 100%; 
+    transition: transform 0.3s ease;
+
+}
+.ima :hover{
+    transform: scale(1.5);
+}
