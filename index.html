@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cursos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col">
+                Logo
+            </div>
+            <div class="col">
+                Centro de Capacitaicion THE OWL
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="container">
+            <section= class="Bienvenida">
+                <h1>Bienvenidos al Centro de capacitacion THE OWL</h1>
+                <hr>
+                <div class="row">
+                    <div class="col col-md-8">
+                        <p><a href="informaciontutor.html">Informacion sobre el tutor</p></a>
+                    </div>
+                    <div class="col col-md-4">
+                        Foto del tutor
+                    </div>
+                </div>
+                <hr>
+            </section=>
+            <section class="Cursos">
+                <div class="row">
+                    <div class="col col-md-5">
+                        <figure>
+                            <img src="assets/imagenes/css.png" alt="Descripcion de la imagen" class="ima" >
+                            <figcaption>Curso HTML y CSS</figcaption>
+                            <button><a href="Html-Css.html">Informacion</a></button>
+                        </figure>
+                    </div>
+                    <div class="col col-md-3">
+                        <h4>Curso HTML y CSS</h4>
+                        <h5>Contenido</h5>
+                        <h5>videos <a href="#videos"></a></h5>
+                        <ul>
+                            <li>Introduccion</li>
+                            <li>Estructura de una pagina</li>
+                            <li>Elementos HTML</li>
+                        </ul>
+                    </div>
+                    <div class="col col-md-4">
+                        <h3>Matriculas Abiertas</h3>
+                        <h4>Fecha de Inscripcion</h4>
+                        <ul>
+                            <li>Lunes 08H00-17H00</li>
+                            <li>Martes 08H00-17H00</li>
+                            <li>Miercoles 08H00-17H00</li>
+                        </ul>
+                        <hr>
+                        <h4>Noticias</h4>
+                        <p>Sigue el proceso de admision a las universidades en este sitio</p>
+                        <a href="#" class="ver-mas-btn">Ver más</a>
+                        <p>Se haran las inscripciones a las universidades en el mes de enero</p>
+                        <p>Para mas informacion click en "Ver mas"</p>
+                        <a href="https://www.senescyt.gob.ec/web/guest/consultas" target="_blank" class="ver-mas-btn">Ver más</a>
+
+                    </div>
+                    <div class="col">
+                        <h3>Matriculas abiertas</h3>
+                        <ol>
+                            <li>Fecha de Inscripcion</li>
+                            <li>Horarios</li>
+                        </ol>
+                    </div>
+                </div>
+                <figure>
+                    <img src="assets/imagenes/css2.png" alt="css2" class="ima">
+                    <figcaption>Curso css</figcaption>
+                    <button><a href="Html-Css.html"></a>Informacion</button>
+                </figure>
+                <figure>
+                    <img src="assets/imagenes/js.png" alt="js" class="ima">
+                    <figcaption>Curso JavaScript</figcaption>
+                    <button><a href="Html-Css.html"></a>Informacion</button>
+                </figure>
+            </section>
+            <section>
+                <div class="row" id="video">
+                    videos
+                    <div class="col">
+                        <video controls preoload="auto"  width="500px" height="400px">
+                            <source src="assets/videos/video1.mp4">
+                        </video>
+                    </div>
+
+                    <div class="col">
+                        <video controls preoload="auto"  width="500px" height="400px">
+                            <source src="assets/videos/video2.mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>Ubucacion</h1>
+                <div class="row">
+
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1994.8956610142181!2d-78.4903109612079!3d-0.21078011775407537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sepn!5e0!3m2!1ses-419!2sec!4v1705590307876!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col">
+                        <p>Envianos tus comentarios</p>
+                        <form action="">
+                            <div class="card">
+                                <div>
+                                    <label for="">Nombre: </label>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <label for="">Apellido: </label>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <label for="">Mail: </label>
+                                    <input type="email">
+                                </div>
+                                
+                                <div>
+                                    <label for="">Comentarios: </label>
+                                    <textarea name="comentarios" id="" cols="30" rows="5"></textarea>
+                                </div>
+                                <div>
+                                    <input type="submit" name="Enviar">
+                                </div>
+
+
+                            </div>
+                        </form>
+                    </div>
+                    <hr>
+                    <section>
+                        <div class="col">
+                            Redes Sociales
+                            <br>
+                            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fyuverly6" target="_blank"><img src="assets/imagenes/t.png" alt="twitter" class="Red-Social"></a>
+                            <br>
+                            <a href="https://www.youtube.com/@hidokun" target="_blank"><img src="assets/imagenes/y.png" alt="youtube" class="Red-Social"></a>
+                            <br>
+                            <a href="https://m.facebook.com/yuverlyalexander.verdezotolojan/?locale=ms_MY&_rdr" target="_blank"><img src="assets/imagenes/f.png" alt="facebook" class="Red-Social"></a>   
+                        </div>
+                    </section>
+                    
+                </div>
+               
+            </section>
+
+        </div>
+        <footer>
+            <p>Info@epn.edu.ec</p>
+            <p>Quito - Ecuador</p>
+        </footer>
+
+    </main>
+    
+</body>
+</html>

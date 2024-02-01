@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="boton01">Dame un click</button>
+    <script>
+        'use strict'
+        function manej_boton01(){
+            console.log("CLick recibido")
+        }
+
+        let b = document.querySelector("#boton01");
+        b.addEventListener("click", manej_boton01());
+    </script>
+</body>
+</html>
